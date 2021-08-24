@@ -9,6 +9,7 @@ class CardHistory {
 
 class BankCard {
   final List<CardHistory> history;
+  final double balance;
 
-  BankCard(this.history);
+  BankCard(this.history, this.balance);
 }

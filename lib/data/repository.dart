@@ -22,7 +22,7 @@ List<CardHistory> history3 = [
 ];
 
 List<BankCard> cards = [
-  BankCard(history1),
-  BankCard(history2),
-  BankCard(history3)
+  BankCard(history1, 450),
+  BankCard(history2, 560),
+  BankCard(history3, 12)
 ];
